@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  color: #cdd2da;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Sans-serif;
+  padding: 20px;
+  background: #0e152a;
+}
+
+
+.header {
+  background: #151F3D;
+  border-radius: 25px;
+  position: relative;
+  padding-bottom: 4.5em;
+}
+
+/*Blog Title */
+.blogtitle {
+  padding: 10px;
+  text-align: center;
+}
+
+#assinatura {
+  max-width: 100%;
+}
+
+.menu {
+  font-family: Monospace;
+  font-size: 23px;
+  position: absolute;
+  width: 100%;
+  top: 80%;
+}
+
+ul {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -120%);
+  display: flex;
+  list-style-type: none;
+}
+
+li a {
+  padding: 2.5vw;
+}
+
+@media screen and (max-width: 600px) {
+
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: #151F3D;
+   border-radius: 25px;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+/* Clear floats after the colum */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#show-more-button {
+  background-color: #151F3D;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -40%);
+  padding: 5px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.container {
+  position: relative;
+  height: 35px;
+  width: 100%;
+}
+
+/* Footer */
+.footer {
+  border-radius: 25px;
+  padding: 20px;
+  text-align: center;
+  background: #151F3D;
+  margin-top: 20px;
+}
+
+
