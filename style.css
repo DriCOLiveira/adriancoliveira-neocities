@@ -40,17 +40,13 @@ ul {
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -120%);
+  transform: translate(-55%, -120%);
   display: flex;
   list-style-type: none;
 }
 
 li a {
   padding: 2.5vw;
-}
-
-@media screen and (max-width: 600px) {
-
 }
 
 .no-underline {
@@ -100,6 +96,16 @@ h2 {
   text-align: center;
   background: #151F3D;
   margin-top: 20px;
+}
+
+@media screen and (max-width:600px) {
+  .menu{
+    font-size: 3.5vw;
+  }
+
+  li a {
+    padding: 3.5vw;
+  }
 }
 
 
