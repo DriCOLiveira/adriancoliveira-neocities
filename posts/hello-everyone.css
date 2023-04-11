@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   color: #cdd2da;
+  -webkit-tap-highlight-color: transparent;
 }
 
 /* Add a gray background color with some padding */
