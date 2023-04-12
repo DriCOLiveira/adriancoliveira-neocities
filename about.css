@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  color: #cdd2da;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Sans-serif;
+  padding: 20px;
+  background: #0e152a;
+}
+
+
+.header {
+  background: #151F3D;
+  border-radius: 25px;
+  position: relative;
+  padding-bottom: 4.5em;
+}
+
+/*Blog Title */
+.blogtitle {
+  padding: 10px;
+  text-align: center;
+}
+
+#assinatura {
+  max-width: 100%;
+}
+
+.menu {
+  font-family: Monospace;
+  font-size: 23px;
+  position: absolute;
+  width: 100%;
+  top: 80%;
+}
+
+ul {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-55%, -120%);
+  display: flex;
+  list-style-type: none;
+}
+
+li a {
+  padding: 2.5vw;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: #151F3D;
+   border-radius: 25px;
+   padding: 20px;
+   margin-top: 20px;
+   font-size: 1.15em;
+}
+
+.card p {
+ line-height: 1.5;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  position: relative;
+  height: 35px;
+  width: 100%;
+}
+
+/* Footer */
+.footer {
+  border-radius: 25px;
+  padding: 20px;
+  text-align: center;
+  background: #151F3D;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .header {
+    padding-bottom: 6vw;
+  }
+
+  .menu {
+    font-size: 3.5vw;
+
+  }
+
+  li a {
+    padding: 3.5vw;
+  }
+
+  .card{
+    font-size: 1em;
+  }
+}
